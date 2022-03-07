@@ -1,1 +1,1 @@
-# stripling_machine_learning_resources
+# stripling's_machine_learning_resources
