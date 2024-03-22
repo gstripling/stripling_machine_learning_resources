@@ -390,7 +390,8 @@ Focus on Application: Emphasize how Generative AI can directly enhance their exi
 The model then presents a table, as shown here.
 https://gemini.google.com/corp/app/aa1a7acccc4d110e
 
-####Prompt: Create the Generative AI Curriculum for the QA Inspector.
+
+#### Prompt: Create the Generative AI Curriculum for the QA Inspector.
 ```	
 Create the Generative AI curriculum for Cora, the QA Inspector.
 ```	
@@ -404,11 +405,11 @@ Expand the speaker notes to include more narrative.
 ```	
 
 ####Prompt: Write more speaker notes for each slide. It is important that this is done.
+
 ```	
 Write more sentences of speaker notes for each slide. It is important that this is done.
-
 ```
-####Prompt: Can you put this content into a table?
+#### Prompt: Can you put this content into a table?
 ```
 Can you put this content into a table?
 ```
@@ -421,7 +422,7 @@ We can then use the slides to begin to create a data repository for a slide cont
 
 We'll write a prompt ask the model to help us begin to automate some things.
 
-#### Prompt: Write the 
+#### Prompt: Write the Code to Export File, Upload to GCS, Import to BigQuery
 
 ```
 Write code to export this table into a .csv format, upload it to Google Cloud storage, and then import it into BigQuery. This will allow us to create a repository of our training content. 
