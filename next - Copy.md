@@ -27,7 +27,7 @@ Vertex AI is a unified platform for building, deploying, and managing machine le
 
 In the world of large language models (LLMs), an instruction prompt is a way of telling the AI exactly what you want it to do. Think of it like giving a super-smart assistant clear directions for a task.
 
-#### Prompt
+#### Prompt: How can Generative AI help Cymbal Solar?
 ```
 Cymbal Solar is our company. We need to upskill our team on Generative AI. How can Generative AI help this solar installation company?
 ```
@@ -51,7 +51,7 @@ Document Generation: Generate contracts, permits, and other essential paperwork 
 
 Next, let's ask the model to create four levels of technical knowledge for Generative AI. This will allow us to create categories we can use later. 
 
-### Prompt
+### Prompt: Create four levels of technical knowledge for Generative AI.
 ```
 Create four levels of technical knowledge for Generative AI.
 ```
