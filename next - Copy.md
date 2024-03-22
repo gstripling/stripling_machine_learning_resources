@@ -51,7 +51,7 @@ Document Generation: Generate contracts, permits, and other essential paperwork 
 
 Next, let's ask the model to create four levels of technical knowledge for Generative AI. This will allow us to create categories we can use later. 
 
-### Prompt: Create four levels of technical knowledge for Generative AI.
+#### Prompt: Create four levels of technical knowledge for Generative AI.
 ```
 Create four levels of technical knowledge for Generative AI.
 ```
@@ -104,7 +104,7 @@ Creates training datasets and evaluation protocols.
 
 Now that we have the Generative AI benefits to Cymbal Solar and the levels of Generative AI technical knowledge, let's have the model create a survey to assess existing Generative AI team knowledge.
 
-### Prompt
+#### Prompt: Create a Self-Assessment GenAI Skills survey.
 ```
 Create a survey for the Cymbal Solar team to self-assess their Generative AI skill level based upon the four levels of technical knowledge for Generative AI. Use a five-point scale. Add a few open-ended questions. 
 ```
@@ -166,7 +166,7 @@ Let me know if you'd like help analyzing the results or designing the upskilling
 
 My last sentence of the response is the model asking me if I would like help analyzing the results or designing the upskilling program based on the survey data. I take this sentence and create another instruction prompt. 
 
-### Prompt
+#### Prompt: Analyze the survey results data
 
 ```
 Yes, I would like help analyzing the results or designing the upskilling program based on the survey data!
@@ -235,7 +235,7 @@ I'll briefly show the Form and visualizations.
 Then, I'll briefly show the Skills Profile spreadsheet.
 I'll then copy all the data in the spreadsheet into the model and create a prompt:
 
-### Prompt
+#### Prompt: Create a Training Plans for Upskiling on Generative AI
 ```
 Here is my team's Generative AI skills profile. Create a training plan for upskilling on Generative AI.
 Timestamp	First Name	Last Name	Role	1. Please indicate how long you have worked at Cymbal Solar.	I use Generative AI to brainstorm new ideas.	I can integrate Generative AI outputs into my creative projects.	 I feel comfortable experimenting with different Generative AI tools.	I can leverage generative AI models for specific tasks and can customize them to a limited degree.	I have the knowledge to modify and train generative AI models, typically within existing frameworks.	I can effectively craft prompts to get the desired results from Generative AI tools.	I understand the basic principles of how Generative AI models work.	I use pre-trained generative AI tools through web interfaces or applications (e.g., DALL-E 2, Gemini, ChatGPT, Jasper)	2. What are some methods you use for learning today? Please check the ones that apply.	2. How quickly do you want to learn these skills?						
@@ -298,7 +298,7 @@ Evaluation: Include short quizzes, project demos, or repeat the survey later to 
 
 To get a more target training plan, I will type the following prompts individually until I arrive at table of skilling by actual role.
 
-### Prompt(s)
+#### Prompt(s): Create A Training Plan by Role and then by First Name.
 ```
 Create the training plan by Role.
 ```
@@ -312,13 +312,13 @@ https://gemini.google.com/corp/app/acbfda32607128e8
 
 
 
-### Part 2 of the Demo is live.
+## Part 2: Create the Generative AI Curriculum 
 
 The next steps are to have the model - using prompt design - create the curriculum for one of the role/levels and actually design the course - e.g. it will put a response showing the slide, proposed image, and speaker notes.
 
 After team training, the model can create a post-assessment survey. The model can analyze the results. 
 
-### Prompt																				
+#### Prompt: Create the Generative AI Curriclum for Cora, the QA Inspector.																		
 ```
 Create the Generative AI curriculum for Cora, the QA Inspector.				
 ```																				
@@ -370,7 +370,7 @@ Mentorship: Does Cymbal Solar have anyone with moderate AI experience who could 
 Let me know how I can help tailor this curriculum further!
 ```	
 
-### Prompt: Develop a Training Plan
+#### Prompt: Develop a Training Plan for Tiko, Cora, and and Matt
 
 ```	
 Develop a training plan for Generative AI upskilling for the following employees in the solar installation company: Tiko Greene =Project Manager, Technical Knowledge for Generative AI=1; Cora Whitley = Quality Insurance Inspector, Technical Knowledge for Generative AI=2; Matt King = Marketing Specialist, Technical 
@@ -390,11 +390,11 @@ Focus on Application: Emphasize how Generative AI can directly enhance their exi
 The model then presents a table, as shown here.
 https://gemini.google.com/corp/app/aa1a7acccc4d110e
 
-
+####Prompt: Create the Generative AI Curriculum for the QA Inspector.
 ```	
 Create the Generative AI curriculum for Cora, the QA Inspector.
 ```	
-
+####Prompt: Suggest a Course Title, Create the course objectives, slides, image for the slides, and speaker notes.
 ```	
 Yes. Suggest a course title and using that title, create the course objectives, slides, image for slides, and speaker notes.
 ```	
@@ -403,11 +403,12 @@ Yes. Suggest a course title and using that title, create the course objectives, 
 Expand the speaker notes to include more narrative.
 ```	
 
+####Prompt: Write more speaker notes for each slide. It is important that this is done.
 ```	
 Write more sentences of speaker notes for each slide. It is important that this is done.
 
 ```
-
+####Prompt: Can you put this content into a table?
 ```
 Can you put this content into a table?
 ```
@@ -420,7 +421,7 @@ We can then use the slides to begin to create a data repository for a slide cont
 
 We'll write a prompt ask the model to help us begin to automate some things.
 
-### Prompt
+#### Prompt: Write the 
 
 ```
 Write code to export this table into a .csv format, upload it to Google Cloud storage, and then import it into BigQuery. This will allow us to create a repository of our training content. 
