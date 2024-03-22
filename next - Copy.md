@@ -11,14 +11,14 @@ Use Case: Cymbal Solar is a energy company looking to upskill their team on Gene
 ### Learning objectives
 
 * Create instruction based prompts using Gemini or Vertex AI Studio.
-* Create a training skills assessment using Google Forms
-* Capture team training skills using Google Sheets
-* Visualize team skills using Google Forms/Data Studio
+* Create a training skills assessment using Google Forms.
+* Capture team training skills using Google Sheets.
+* Visualize team skills using Google Forms/Data Studio.
 * Write prompts to create learning assets.
 * Write prompts to create pre/post training assessments.
 * Write prompts to create the learning assests
 * Write a prompt to export a learning asset into BigQuery.*
-* Write a prompt to create a chatbot based on a learning role.
+* Write a prompt to create a Chatbot based on a learning role.
 
 
 Vertex AI is a unified platform for building, deploying, and managing machine learning (ML) applications. Gemnini is Google's AI model. Vertex AI Studio allows you to write prompts without writing code and is available in Vertex AI.
@@ -30,7 +30,6 @@ In the world of large language models (LLMs), an instruction prompt is a way of 
 #### Prompt
 ```
 Cymbal Solar is our company. We need to upskill our team on Generative AI. How can Generative AI help this solar installation company?
-
 ```
 Response: Note - Only sample out is shown here.
 
@@ -39,9 +38,7 @@ Absolutely! Here's a breakdown of how Generative AI can be a powerful tool for u
 
 How Generative AI Can Help Cymbal Solar.
 
-Enhanced Sales and Marketing:
-
-Lead Generation: Generative AI can craft compelling social media posts, email campaigns, and website copy to attract potential customers.
+Enhanced Sales and Marketing - Lead Generation: Generative AI can craft compelling social media posts, email campaigns, and website copy to attract potential customers.
 
 Personalized Proposals: Create tailored proposals highlighting energy savings and ROI calculations specific to a client's needs and location.
 
@@ -50,7 +47,6 @@ Chatbots: Develop AI-powered chatbots to handle initial customer inquiries 24/7,
 Site Analysis: Analyze satellite imagery and data using AI to identify ideal roof layouts and potential shading issues for increased system efficiency.
 
 Document Generation: Generate contracts, permits, and other essential paperwork quickly and accurately.
-
 ```
 
 Next, let's ask the model to create four levels of technical knowledge for Generative AI. This will allow us to create categories we can use later. 
@@ -58,7 +54,6 @@ Next, let's ask the model to create four levels of technical knowledge for Gener
 ### Prompt
 ```
 Create four levels of technical knowledge for Generative AI.
-
 ```
 
 Response: Only sample out is shown here.
@@ -112,7 +107,6 @@ Now that we have the Generative AI benefits to Cymbal Solar and the levels of Ge
 ### Prompt
 ```
 Create a survey for the Cymbal Solar team to self-assess their Generative AI skill level based upon the four levels of technical knowledge for Generative AI. Use a five-point scale. Add a few open-ended questions. 
-
 ```
 
 Response: Only sample output shown.
@@ -168,7 +162,6 @@ What kind of training or resources would you find most useful to advance your Ge
 Thank you for your participation! Your feedback is valuable as we design our Generative AI upskilling program.
 
 Let me know if you'd like help analyzing the results or designing the upskilling program based on the survey data!
-
 ```
 
 My last sentence of the response is the model asking me if I would like help analyzing the results or designing the upskilling program based on the survey data. I take this sentence and create another instruction prompt. 
@@ -177,7 +170,6 @@ My last sentence of the response is the model asking me if I would like help ana
 
 ```
 Yes, I would like help analyzing the results or designing the upskilling program based on the survey data!
-
 ```
 
 Response: Only sample output shown.
@@ -227,12 +219,11 @@ Tiers 2-3: AI tool workshops specific to sales with ample practice time. Include
 Tier 4 (if applicable): Explore advanced prompt engineering for lead generation or sponsor a small-scale research project.
 
 Let me know if you want to dive into a specific analysis of potential survey data or brainstorm training formats. I'm here to help!
-
 ```
 
 
 
-## Task 1. Create a Google Form. 
+## Task 2. Create a Google Form. 
 
 In this demo, the survey was created using Google Forms. The results of Google Forms automatically captures the data in sheets and automatically gives visualizations of survey results.
 
@@ -241,7 +232,7 @@ I'll briefly show the Form and visualizations.
 [Google Spreedsheet](https://docs.google.com/spreadsheets/d/1IBxQVkZ35jpKa_QPXSlQ4HcP7S_zC-5TzNtGYPMUzeU/edit?resourcekey=0-1MfK39T_6_u2o8LIKu7yFw#gid=1052472429)
 
 
-Then, I'll briefly show the Skills pProfile spreadsheet.
+Then, I'll briefly show the Skills Profile spreadsheet.
 I'll then copy all the data in the spreadsheet into the model and create a prompt:
 
 ### Prompt
@@ -257,8 +248,7 @@ Timestamp	First Name	Last Name	Role	1. Please indicate how long you have worked 
 3/18/2024 18:44:07	Tawanda	Larry	Quality Assurance  Inspector	1-2 years	1	1	3	1	1	4	4	4	Trainings I attend outside the company, On-Demand Learning Platforms (Coursera, Pluralsight, Google Cloud Skills Boost, etc.)	Within 6 months						
 3/18/2024 18:49:42	Fred	Kang	Marketing Specialist	10+ years	2	3	2	1	1	4	3	4	Trainings I attend outside the company, Sessions organized by my team members, On-Demand Learning Platforms (Coursera, Pluralsight, Google Cloud Skills Boost, etc.)	Within 3 months						
 3/20/2024 16:24:34	Yuki	Walker	Project Manager	3-4 years	4	2	2	3	2	4	1	2	Trainings I attend outside the company	Within an year						
-3/20/2024 16:53:01	Mo	Benhardt	Project Manager	3-4 years	4	3	4	3	2	5	4	5	Discussing problems I face with colleagues, Trainings I attend outside the company, On-Demand Learning Platforms (Coursera, Pluralsight, Google Cloud Skills Boost, etc.)	As early as possible						
-																				
+3/20/2024 16:53:01	Mo	Benhardt	Project Manager	3-4 years	4	3	4	3	2	5	4	5	Discussing problems I face with colleagues, Trainings I attend outside the company, On-Demand Learning Platforms (Coursera, Pluralsight, Google Cloud Skills Boost, etc.)	As early as possible	
 ```
 
 Response
@@ -303,8 +293,7 @@ Small-scale internal research project with clear goals
 
 Motivation Matters: The survey reveals your team is enthusiastic! Leverage this energy with hands-on training sessions and examples tailored to their interests.
 Pace & Agility: Divide the training into manageable chunks that correspond with the team's desired learning speed. This plan isn't set in stone – adjust as you go.
-Evaluation: Include short quizzes, project demos, or repeat the survey later to gauge progress and tailor the plan further.
-																				
+Evaluation: Include short quizzes, project demos, or repeat the survey later to gauge progress and tailor the plan further.							
 ```
 
 To get a more target training plan, I will type the following prompts individually until I arrive at table of skilling by actual role.
@@ -316,7 +305,6 @@ Create the training plan by Role.
 
 ```
 Create the training by First name.
-
 ```
 
 Here is the link to the table.
@@ -324,17 +312,15 @@ https://gemini.google.com/corp/app/acbfda32607128e8
 
 
 
-Part 2 of the Demo is live.
+### Part 2 of the Demo is live.
 
-The next steps are to have the model -using prompt design - create the curriculum for one of the role/levels and actually design the course - e.g. it will put a response showing the slide, proposed image, and speaker notes.
+The next steps are to have the model - using prompt design - create the curriculum for one of the role/levels and actually design the course - e.g. it will put a response showing the slide, proposed image, and speaker notes.
 
 After team training, the model can create a post-assessment survey. The model can analyze the results. 
 
-As a final team-building exercise, have the team work together to create a simple sentiment analysis project that will capture customer sentiments using Generative AI.
-
 ### Prompt																				
 ```
-Create the Generative AI curriculum for Cora, the QA Inspector.																			
+Create the Generative AI curriculum for Cora, the QA Inspector.				
 ```																				
 Response: MY Link to prompt.
 
@@ -382,10 +368,9 @@ Project Ideas: Can we brainstorm a small-scale project she could work on in Phas
 Mentorship: Does Cymbal Solar have anyone with moderate AI experience who could guide Cora, especially as she gets into customization?
 
 Let me know how I can help tailor this curriculum further!
-
 ```	
 
-### Prompt
+### Prompt: Develop a Training Plan
 
 ```	
 Develop a training plan for Generative AI upskilling for the following employees in the solar installation company: Tiko Greene =Project Manager, Technical Knowledge for Generative AI=1; Cora Whitley = Quality Insurance Inspector, Technical Knowledge for Generative AI=2; Matt King = Marketing Specialist, Technical 
@@ -439,7 +424,6 @@ We'll write a prompt ask the model to help us begin to automate some things.
 
 ```
 Write code to export this table into a .csv format, upload it to Google Cloud storage, and then import it into BigQuery. This will allow us to create a repository of our training content. 
-
 ```
 
 Response:
